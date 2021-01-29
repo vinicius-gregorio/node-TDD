@@ -1,4 +1,6 @@
+import { Http2ServerResponse } from 'http2'
 import { SignupController } from './signup'
+
 
 describe('Signup Controller ', () => {
     test('Should return 400 if no name is provided ', () => {
